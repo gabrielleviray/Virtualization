@@ -1,1 +1,0 @@
-cmd_/home/gabrielleviray/1_Assignment/cmpe283-1.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/gabrielleviray/1_Assignment/cmpe283-1.ko /home/gabrielleviray/1_Assignment/cmpe283-1.o /home/gabrielleviray/1_Assignment/cmpe283-1.mod.o;  true
