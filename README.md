@@ -15,14 +15,28 @@ Team: Gabrielle Viray (012340068)
      ```
      git clone https://github.com/gabrielleviray/linux.git
      ```
-   4. Build Kernel Environment following the guide:https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel
-    ```
-    sudo apt-get install libncurses-dev gawk flex bison openssl libssl-dev dkms libelf-dev libudev-dev libpci-dev libiberty-dev autoconf
-    ```
-   5. Download 'Makefile' and 'cmpe283-1.c' from canvas.
+   4. Build Kernel Environment following the guide: https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel<br>
+      ```
+      sudo apt-get install libncurses-dev gawk flex bison openssl libssl-dev dkms libelf-dev libudev-dev libpci-dev libiberty-dev autoconf
+      ```
+    
+   5. Download "Makefile" and "cmpe283-1.c" from canvas.
       a. ```make```
       b. ```sudo insmod ./cmpe283-1.ko
       c. ```dmesg```
 
 ## Implementation
-  1. 
+  1.  In cmpe283-1.c, I added 4 Control MSRs:
+      - Primary Proccessor-Based Control
+      - Secondary Proccessor-Based Control
+      - Exit Control
+      - Entry Control
+  2. In Ubuntu terminal,
+      a. ```make```
+      b. ```sudo rmmod cmpe283-1```
+      c. ```sudo insmod ./cmpe283-1.c```
+      d. ```dmesg```
+
+
+## References
+1. 
