@@ -31,11 +31,11 @@ Team: Gabrielle Viray (012340068)
       - Secondary Proccessor-Based Control
       - Exit Control
       - Entry Control
-  2. In Ubuntu terminal,
-      a. ```make```
-      b. ```sudo rmmod cmpe283-1```
-      c. ```sudo insmod ./cmpe283-1.c```
-      d. ```dmesg```
+  2. In Ubuntu terminal,<br>
+      a. ```make```<br>
+      b. ```sudo rmmod cmpe283-1```<br>
+      c. ```sudo insmod ./cmpe283-1.c```<br>
+      d. ```dmesg```<br>
 
 
 ## References
