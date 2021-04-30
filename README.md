@@ -45,8 +45,8 @@ Team: Gabrielle Viray (012340068)
       sudo insmod ./cmpe283-1.c
       ```
       d. Display messages
-      ``
-      `dmesg
+      ```
+      dmesg
       ```
 
 
