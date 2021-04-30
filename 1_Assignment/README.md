@@ -21,9 +21,12 @@ Team: Gabrielle Viray (012340068)
       ```
     
    5. Download "Makefile" and "cmpe283-1.c" from canvas.
-      a. ```make```
-      b. ```sudo insmod ./cmpe283-1.ko
-      c. ```dmesg```
+      a. Make
+      ```make```
+      b. Insert module
+      ```sudo insmod ./cmpe283-1.ko```
+      c. Display messages
+      ```dmesg```
 
 ## Implementation
   1.  In cmpe283-1.c, I added 4 Control MSRs:
@@ -32,10 +35,12 @@ Team: Gabrielle Viray (012340068)
       - Exit Control
       - Entry Control
   2. In Ubuntu terminal,<br>
-      a. ```make```<br>
-      b. ```sudo rmmod cmpe283-1```<br>
-      c. ```sudo insmod ./cmpe283-1.c```<br>
-      d. ```dmesg```<br>
+      a. Make
+      ```make```<br>
+      b. Unload module
+      ```sudo rmmod cmpe283-1```<br>
+      c. Insert module```sudo insmod ./cmpe283-1.c```<br>
+      d. Display messages```dmesg```<br>
 
 
 ## References
