@@ -10,7 +10,7 @@ Team: Gabrielle Viray (012340068)
      ```
      sudo apt-get install git
      ```
-     b. Forked linux code from https://github.com/torvalds/linux and cloned to my repo.<br>
+     b. Forked linux code from https://github.com/torvalds/linux and cloned to my linux repo.<br>
      c. Cloned linux repo<br>
      ```
      git clone https://github.com/gabrielleviray/linux.git
