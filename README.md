@@ -32,10 +32,14 @@ Team: Gabrielle Viray (012340068)
       - Exit Control
       - Entry Control
   2. In Ubuntu terminal,<br>
-      a. Make```make```<br>
-      b. Remove module from the kernel```sudo rmmod cmpe283-1```<br>
-      c. Insert module into the kernel```sudo insmod ./cmpe283-1.c```<br>
-      d. Display messages```dmesg```<br>
+      a. Make
+      ```make```<br>
+      b. Remove module from the kernel
+      ```sudo rmmod cmpe283-1```<br>
+      c. Insert module into the kernel
+      ```sudo insmod ./cmpe283-1.c```<br>
+      d. Display messages
+      ```dmesg```<br>
 
 
 ## References
