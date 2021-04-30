@@ -39,4 +39,5 @@ Team: Gabrielle Viray (012340068)
 
 
 ## References
-1.
+1. https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel
+2. https://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-vol-3c-part-3-manual.pdf
