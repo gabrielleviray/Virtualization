@@ -2,7 +2,9 @@
 
 Team: Gabrielle Viray (012340068)
 
-## Initial Setup:
+## Steps to Complete the Assignment
+
+### Initial Steps(Setup)
   1. Installed VMware Fusion and Ubuntu 20.04 ISO file.
   2. Create Virtual Machine with 200 GB of Disk Space and Enabled Virtualization.
   3. Download Linux Source Code from Github<br>
@@ -28,8 +30,8 @@ Team: Gabrielle Viray (012340068)
       c. Display messages
       ```dmesg```
 
-## Implementation
-  1.  In cmpe283-1.c, I added 4 Control MSRs:
+### Implementation
+  1.  In cmpe283-1.c, I added 4 Control MSRs below:
       - Primary Proccessor-Based Control
       - Secondary Proccessor-Based Control
       - Exit Control
