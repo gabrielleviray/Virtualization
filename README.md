@@ -33,13 +33,21 @@ Team: Gabrielle Viray (012340068)
       - Entry Control
   2. In Ubuntu terminal,<br>
       a. Make
-      ```make```<br>
+      ```
+      make
+      ```
       b. Remove module from the kernel
-      ```sudo rmmod cmpe283-1```<br>
+      ```
+      sudo rmmod cmpe283-1
+      ```
       c. Insert module into the kernel
-      ```sudo insmod ./cmpe283-1.c```<br>
+      ```
+      sudo insmod ./cmpe283-1.c
+      ```
       d. Display messages
-      ```dmesg```<br>
+      ``
+      `dmesg
+      ```
 
 
 ## References
