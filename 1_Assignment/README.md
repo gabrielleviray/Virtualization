@@ -34,13 +34,15 @@ Team: Gabrielle Viray (012340068)
       - Secondary Proccessor-Based Control
       - Exit Control
       - Entry Control
-  2. In Ubuntu terminal,<br>
+  2. In Ubuntu terminal:
       a. Make
-      ```make```<br>
+      ```make```
       b. Unload module
-      ```sudo rmmod cmpe283-1```<br>
-      c. Insert module```sudo insmod ./cmpe283-1.c```<br>
-      d. Display messages```dmesg```<br>
+      ```sudo rmmod cmpe283-1```
+      c. Insert module
+      ```sudo insmod ./cmpe283-1.c```
+      d. Display messages
+      ```dmesg```
 
 
 ## References
