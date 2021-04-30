@@ -37,11 +37,11 @@ Team: Gabrielle Viray (012340068)
   2. In Ubuntu terminal:<br>
       a. Make<br>
       ```make```
-      b. Unload module
+      b. Unload module<br>
       ```sudo rmmod cmpe283-1```
-      c. Insert module
+      c. Insert module<br>
       ```sudo insmod ./cmpe283-1.c```
-      d. Display messages
+      d. Display messages<br>
       ```dmesg```
 
 
