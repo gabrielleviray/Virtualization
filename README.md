@@ -1,8 +1,8 @@
 # Virtualization
 
 Team: Gabrielle Viray (012340068)
-
-## Initial Setup:
+## Guide to Complete Assignment 1
+### Initial Setup:
   1. Installed VMware Fusion and Ubuntu 20.04 ISO file.
   2. Create Virtual Machine with 200 GB of Disk Space and Enabled Virtualization.
   3. Download Linux Source Code from Github<br>
@@ -21,21 +21,21 @@ Team: Gabrielle Viray (012340068)
       ```
     
    5. Download "Makefile" and "cmpe283-1.c" from canvas.
-      a. ```make```
-      b. ```sudo insmod ./cmpe283-1.ko
-      c. ```dmesg```
+      a. Make```make```
+      b. Insert module into the kernal```sudo insmod ./cmpe283-1.ko
+      c. Display messages```dmesg```
 
-## Implementation
-  1.  In cmpe283-1.c, I added 4 Control MSRs:
+### Implementation
+  1.  In cmpe283-1.c, I referenced the Intel SDM Volume 3 Manual added 4 Control MSRs and added the capabilities for:
       - Primary Proccessor-Based Control
       - Secondary Proccessor-Based Control
       - Exit Control
       - Entry Control
   2. In Ubuntu terminal,<br>
-      a. ```make```<br>
-      b. ```sudo rmmod cmpe283-1```<br>
-      c. ```sudo insmod ./cmpe283-1.c```<br>
-      d. ```dmesg```<br>
+      a. Make```make```<br>
+      b. Remove module from the kernel```sudo rmmod cmpe283-1```<br>
+      c. Insert module into the kernel```sudo insmod ./cmpe283-1.c```<br>
+      d. Display messages```dmesg```<br>
 
 
 ## References
