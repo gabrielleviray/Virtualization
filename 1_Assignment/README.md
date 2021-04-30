@@ -36,15 +36,22 @@ Team: Gabrielle Viray (012340068)
       - Entry Control
   2. In Ubuntu terminal:<br>
       a. Make<br>
-      ```make```
+      ```
+      make
+      ```
       b. Unload module<br>
-      ```sudo rmmod cmpe283-1```
+      ```
+      sudo rmmod cmpe283-1
+      ```
       c. Insert module<br>
-      ```sudo insmod ./cmpe283-1.c```
+      ```
+      sudo insmod ./cmpe283-1.c
+      ```
       d. Display messages<br>
-      ```dmesg```
-
-
+      ```
+      dmesg
+      ```
+      
 ## References
 1. https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel
 2. https://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-vol-3c-part-3-manual.pdf
